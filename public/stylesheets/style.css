@@ -1,8 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background-color: rgb(189, 230, 216);
+    color: #131c19;
 }
 
 a {
-  color: #00B7FF;
+    color: #047b55;
+}
+
+.delete-form {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.delete-form button {
+    color: rgb(4, 70, 12);
+}
+
+.delete-form button:hover {
+    color: rgb(255, 0, 0);
+}
+
+li {
+    list-style: none;
 }
